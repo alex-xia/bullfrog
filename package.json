@@ -1,0 +1,29 @@
+{
+  "name": "bullfrog",
+  "version": "1.0.0",
+  "description": "a bullfrog that jumps high",
+  "main": "bullfrog.js",
+  "scripts": {
+    "test": "mocha -w",
+    "start": "node ./bullfrog.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-xia/bullfrog.git"
+  },
+  "author": "BullfrogApp",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/alex-xia/bullfrog/issues"
+  },
+  "homepage": "https://github.com/alex-xia/bullfrog#readme",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-exec": "^0.4.6",
+    "grunt-mocha-istanbul": "^3.0.1"
+  }
+}
